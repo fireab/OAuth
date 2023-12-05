@@ -1,0 +1,20 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js "
+  },
+  "author": "fireab",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express.js": "^1.0.0",
+    "install": "^0.13.0",
+    "nodemon": "^3.0.2",
+    "npm": "^10.2.4",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
