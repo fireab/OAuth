@@ -12,6 +12,7 @@
     "ejs": "^3.1.9",
     "express.js": "^1.0.0",
     "install": "^0.13.0",
+    "mongoose": "^8.0.2",
     "nodemon": "^3.0.2",
     "npm": "^10.2.4",
     "passport": "^0.7.0",
