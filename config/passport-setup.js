@@ -13,6 +13,17 @@ passport.use(
     },
     (accessToken, refreshToken, profile, done) => {
       //passport callback function
+      // new User({ username: profile.displayName, googleId: profile.id })
+      //   .save()
+      //   .then((newUser) => {
+      //     console.log("new user Created" + newUser);
+      //   });
+      User.create({
+        username: profile.displayName,
+        googleId: profile.id,
+      }).then((newUser) => {
+        console.log("new user Created" + newUser);
+      });
     }
   )
 );
